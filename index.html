@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="shortcut icon" href="./images/duotone-waterdrop-svgrepo-com.svg" type="image/x-icon">
+
+  <title>Login</title>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+</script>
+</head>
+<body class="login-bg pt-[200px] flex items-center justify-center">
+  <div class="w-[612px] bg-white pt-[35px] pb-[48px] rounded-[25px] flex flex-col justify-center items-center">
+    <img class="mb-[17px]" src="/images/logo.svg" alt="Logo" width="221" height="72">
+    <p class="text-[25px] font-bold text-[#AAAAAA] mb-[70px] text-center leading-[29px]">
+      Введите имя пользователя и пароль, чтобы получить доступ к форме
+    </p>
+    <form class="login-form flex flex-col items-center justify-between">
+      <input required name="username" class="outline-none text-center py-[15px] shadow shadow-[#CBCCCB] border-[1px] border-[#CBCCCB] rounded-[17px] w-[360px] mb-[15px]" placeholder="Имя Пользователя">
+      <input required name="password" type="password" class="outline-none text-center py-[15px] shadow shadow-[#CBCCCB] border-[1px] border-[#CBCCCB] rounded-[17px] w-[360px] mb-[15px]" placeholder="Пароль">
+      <button class="login-btn mt-[47px] mx-auto py-[8px] w-[237px] bg-[#3F8C8E] text-white font-bold text-[25px] text-center rounded-[10px] flex items-center justify-center" type="submit">
+        Войти
+
+      </button>
+      
+    </form>
+  </div>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
