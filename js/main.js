@@ -12,7 +12,7 @@ elForm.addEventListener("submit", function (e) {
 
   elBtn.innerHTML = '<img class="scale-[1.5] mx-auto" src="./images/loading.png" alt="Loading ..." width="38" height="37">';
 
-  if (data.username === "123" && data.password === "123") {
+  if (data.username === "Valijon" && data.password === "123") {
     setTimeout(() => {
       elBtn.innerHTML = "Войти";
       location.pathname = "./products.html";
@@ -25,4 +25,3 @@ elForm.addEventListener("submit", function (e) {
 });
 
 
-alert("Login:123 Password:123")
